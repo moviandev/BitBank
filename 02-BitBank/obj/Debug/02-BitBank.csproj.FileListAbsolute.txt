@@ -1,0 +1,7 @@
+C:\Users\mathe\projects\BitBank\02-BitBank\bin\Debug\02-BitBank.exe.config
+C:\Users\mathe\projects\BitBank\02-BitBank\bin\Debug\02-BitBank.exe
+C:\Users\mathe\projects\BitBank\02-BitBank\bin\Debug\02-BitBank.pdb
+C:\Users\mathe\projects\BitBank\02-BitBank\obj\Debug\02-BitBank.csprojAssemblyReference.cache
+C:\Users\mathe\projects\BitBank\02-BitBank\obj\Debug\02-BitBank.csproj.CoreCompileInputs.cache
+C:\Users\mathe\projects\BitBank\02-BitBank\obj\Debug\02-BitBank.exe
+C:\Users\mathe\projects\BitBank\02-BitBank\obj\Debug\02-BitBank.pdb
