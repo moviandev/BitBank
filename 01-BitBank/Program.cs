@@ -10,7 +10,22 @@ namespace _01_BitBank
     {
         static void Main(string[] args)
         {
-            new ContaCorrente();
+            ContaCorrente contaDaGabriela = new ContaCorrente();
+
+            contaDaGabriela.titular = "Gabriela";
+            contaDaGabriela.agencia = 1234;
+            contaDaGabriela.numeroCC = 123456789;
+            contaDaGabriela.saldo = 100.50;
+
+            Console.WriteLine(contaDaGabriela.titular);
+            Console.WriteLine(contaDaGabriela.agencia);
+            Console.WriteLine(contaDaGabriela.numeroCC);
+            Console.WriteLine(contaDaGabriela.saldo);
+
+            contaDaGabriela.saldo += 200;
+            Console.WriteLine(contaDaGabriela.saldo);
+
+
             Console.ReadLine();
         }
     }
