@@ -4,21 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _02_BitBank
+namespace _03_BitBank
 {
     class Program
     {
         static void Main(string[] args)
         {
-            ContaCorrente conta = new ContaCorrente();
+            ContaCorrente contaDoBruno = new ContaCorrente();
 
-            conta.titular = "Gabriela";
+            contaDoBruno.titular = "Bruno";
+            contaDoBruno.Sacar(50);
 
-            Console.WriteLine(conta.titular);
-            Console.WriteLine(conta.saldo);
+            Console.WriteLine($"Titular: {contaDoBruno.titular} saldo: {contaDoBruno.saldo}");
 
             Console.ReadLine();
-
         }
     }
 }

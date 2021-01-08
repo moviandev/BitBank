@@ -7,4 +7,3 @@ public class ContaCorrente
     // ADICIONADO VALOR INICIAL DE 100
     public double saldo = 100;
 }
-
