@@ -17,6 +17,10 @@ namespace _03_BitBank
 
             Console.WriteLine($"Titular: {contaDoBruno.titular} saldo: {contaDoBruno.saldo}");
 
+            contaDoBruno.Depositar(500);
+
+            Console.WriteLine($"Titular: {contaDoBruno.titular} saldo: {contaDoBruno.saldo}");
+
             Console.ReadLine();
         }
     }
