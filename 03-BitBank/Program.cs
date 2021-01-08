@@ -21,6 +21,14 @@ namespace _03_BitBank
 
             Console.WriteLine($"Titular: {contaDoBruno.titular} saldo: {contaDoBruno.saldo}");
 
+            ContaCorrente contaDaGabriela = new ContaCorrente();
+
+            contaDaGabriela.titular = "Gabriela";
+
+            contaDoBruno.Transferir(200, contaDaGabriela);
+
+            Console.WriteLine($"Titular: {contaDoBruno.titular} saldo: {contaDoBruno.saldo}, Saldo da cont da Gabriela {contaDaGabriela.saldo}");
+
             Console.ReadLine();
         }
     }
