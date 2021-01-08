@@ -7,7 +7,7 @@
     <ProjectGuid>{183751B1-DF67-41E6-9149-A864A6BD8ED0}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_04_BtiBank</RootNamespace>
-    <AssemblyName>_04_BtiBank</AssemblyName>
+    <AssemblyName>04-BtiBank</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cliente.cs" />
+    <Compile Include="ContaCorrente.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
