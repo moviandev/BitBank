@@ -18,6 +18,7 @@ namespace _02_BitBank
             Console.WriteLine(conta.saldo);
 
             Console.ReadLine();
+
         }
     }
 }
