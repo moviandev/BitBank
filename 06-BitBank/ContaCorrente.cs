@@ -23,7 +23,7 @@ namespace _06_BitBank
             }
         }
 
-        private static int TotalContasCriadas { get; set; }
+        public static int TotalContasCriadas { get; private set; }
 
         private int _agencia;
 
