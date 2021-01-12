@@ -8,20 +8,21 @@
         // ADICIONADO VALOR INICIAL DE 100
         private double saldo = 100;
 
-        public void DefinirSaldo(double saldo)
+        public double Saldo
         {
-            if (saldo < 0)
+            get
             {
-                return;
+                return saldo;
             }
+            set
+            {
+                if (value < 0)
+                {
+                    return;
+                }
 
-            this.saldo = saldo;
-
-        }
-
-        public double ObterSaldo()
-        {
-            return saldo;
+                saldo = value;
+            }
         }
 
         public bool Sacar(double valor)

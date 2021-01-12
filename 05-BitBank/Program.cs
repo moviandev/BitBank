@@ -12,7 +12,9 @@ namespace _05_BitBank
         {
             ContaCorrente conta = new ContaCorrente();
 
-            Console.WriteLine(conta.ObterSaldo());
+            conta.Saldo = -10;
+
+            Console.WriteLine(conta.Saldo);
 
             Console.ReadLine();
         }
