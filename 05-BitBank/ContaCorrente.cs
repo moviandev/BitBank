@@ -23,11 +23,11 @@ namespace _05_BitBank
             }
         }
 
-        public int agencia { get; set; }
+        public int Agencia { get; set; }
 
 
 
-        public int numeroCC { get; set; }
+        public int NumeroCC { get; set; }
         // ADICIONADO VALOR INICIAL DE 100
         // ADICIONAR O _ É UMA FORMA DE SEPARAR O NOME DA PROPRIEDADE É DIFERENTE DO GETTER SETTER
         private double _saldo = 100;
